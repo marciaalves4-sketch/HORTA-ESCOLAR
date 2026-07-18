@@ -151,4 +151,11 @@ header h1 {
 .texto-capa p {
     font-size: 22px;
 }
-
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
