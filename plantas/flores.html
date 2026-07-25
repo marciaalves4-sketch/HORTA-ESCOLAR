@@ -6,240 +6,391 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Flores da Nossa Horta - Horta Escolar Viva</title>
+<title>Flores da Nossa Horta - Jardim da Biodiversidade</title>
 
 <link rel="stylesheet" href="../style.css">
 
+<style>
+
+body{
+    background:#fff8f0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.topo{
+
+    background:linear-gradient(135deg,#f9d976,#f48fb1,#81c784);
+
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.topo h1{
+
+    font-size:45px;
+    margin-bottom:10px;
+
+}
+
+.topo p{
+
+    font-size:22px;
+
+}
+
+
+.selo{
+
+    display:inline-block;
+    margin-top:20px;
+    background:white;
+    color:#c2185b;
+    padding:10px 25px;
+    border-radius:30px;
+    font-weight:bold;
+
+}
+
+
+.conteudo{
+
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+
+}
+
+
+.grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+
+.card{
+
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+
+.card img{
+
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.20);
+
+}
+
+
+.card h2{
+
+    color:#c2185b;
+
+}
+
+
+.card a{
+
+    display:inline-block;
+    margin-top:15px;
+    background:#81c784;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:25px;
+    font-weight:bold;
+
+}
+
+
+.card a:hover{
+
+    background:#2e7d32;
+
+}
+
+
+.voltar{
+
+    text-align:center;
+    margin:40px;
+
+}
+
+
+.voltar a{
+
+    color:#2e7d32;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+
+
+footer{
+
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+
+}
+
+
+footer p{
+
+    margin:0;
+    line-height:1.8;
+
+}
+
+</style>
+
 </head>
+
 
 <body>
 
-<header>
+
+<header class="topo">
 
 <h1>🌸 Flores da Nossa Horta</h1>
 
-<p>
-Beleza, biodiversidade e educação ambiental.
-</p>
+<p>Jardim da Biodiversidade</p>
+
+<div class="selo">
+🌿 Horta Escolar Viva
+</div>
 
 </header>
 
 
-<nav>
-
-<a href="../index.html">🌱 Início</a>
-
-<a href="../escola.html">🏫 Nossa Escola</a>
-
-<a href="../index.html#plantas">🥬 Plantas</a>
-
-<a href="../index.html#manejo">🌱 Manejo Sustentável</a>
-
-<a href="../index.html#galeria">📸 Galeria</a>
-
-</nav>
+<section class="conteudo">
 
 
+<div class="grid">
 
-<section>
 
+<div class="card">
 
-<h2>🌼 Flores do Jardim Sustentável</h2>
+<img src="margarida-grande.jpg"
+alt="Margarida Grande">
 
+<h2>🌼 Margarida Grande</h2>
 
 <p>
-Além das hortaliças, a Horta Escolar Viva também cultiva flores, que tornam o ambiente escolar mais bonito, acolhedor e favorável à biodiversidade.
+Flores brancas com centro amarelo que atraem polinizadores e deixam a horta mais bonita.
 </p>
-
-
-<p>
-As flores desempenham um papel importante na natureza, atraindo abelhas, borboletas e outros insetos polinizadores, fundamentais para a reprodução das plantas e para o equilíbrio ambiental.
-</p>
-
-
-<p>
-Na horta escolar, elas também despertam a sensibilidade, incentivam o cuidado com a natureza e fortalecem a educação ambiental por meio de atividades práticas e interdisciplinares.
-</p>
-
-
-
-<h2>🌺 Benefícios das Flores</h2>
-
-
-<ul>
-
-<li>🐝 Atraem polinizadores.</li>
-
-<li>🌿 Favorecem a biodiversidade.</li>
-
-<li>🌎 Contribuem para o equilíbrio ambiental.</li>
-
-<li>🎨 Embelezam os espaços escolares.</li>
-
-<li>💚 Estimulam o cuidado e o respeito pela natureza.</li>
-
-</ul>
-
-
-
-<h2>🌻 Conheça as Flores do Jardim Sustentável</h2>
-
-
-
-<div class="cards">
-
-
-
-<a href="girassol.html">
-
-🌻 Girassol
-
-<br>
-
-Símbolo de luz, beleza e atração de polinizadores.
-
-</a>
-
-
-
-<a href="calendula.html">
-
-🌼 Calêndula
-
-<br>
-
-Flor ornamental que contribui para a biodiversidade.
-
-</a>
-
-
-
-<a href="tagetes.html">
-
-🌼 Tagetes (Cravo-de-defunto)
-
-<br>
-
-Planta companheira utilizada em jardins sustentáveis.
-
-</a>
-
-
-
-<a href="vinca-rosa.html">
-
-🌸 Vinca Rosa
-
-<br>
-
-Flor resistente e adaptada ao jardim escolar.
-
-</a>
-
-
 
 <a href="margarida-grande.html">
-
-🌼 Margarida Grande
-
-<br>
-
-Flor branca com centro amarelo, símbolo de beleza e harmonia.
-
+Conhecer Planta
 </a>
 
+</div>
 
 
-<a href="onze-horas.html">
+<div class="card">
 
-🌺 Onze Horas
+<img src="girassol.jpg"
+alt="Girassol">
 
-<br>
+<h2>🌻 Girassol</h2>
 
-Flor colorida que valoriza os espaços da horta.
+<p>
+Uma flor símbolo de alegria, luz e biodiversidade.
+</p>
 
+<a href="girassol.html">
+Conhecer Planta
 </a>
 
+</div>
 
+
+<div class="card">
+
+<img src="vinca-rosa.jpg"
+alt="Vinca Rosa">
+
+<h2>🌺 Vinca Rosa</h2>
+
+<p>
+Flor ornamental resistente e muito utilizada em jardins.
+</p>
+
+<a href="vinca-rosa.html">
+Conhecer Planta
+</a>
+
+</div>
+
+
+<div class="card">
+
+<img src="boca-de-leao.jpg"
+alt="Boca de Leão">
+
+<h2>🌷 Boca de Leão</h2>
+
+<p>
+Flor colorida que contribui para a beleza e biodiversidade.
+</p>
 
 <a href="boca-de-leao.html">
-
-⚪ Boca de Leão
-
-<br>
-
-Flor curiosa com formato diferente e grande valor ornamental.
-
+Conhecer Planta
 </a>
 
+</div>
+  <div class="card">
 
+<img src="calêndula.jpg"
+alt="Calêndula">
 
-<a href="flor-de-mel.html">
+<h2>🌼 Calêndula</h2>
 
-🟠 Flor de Mel
+<p>
+Flor medicinal e ornamental conhecida por suas cores vibrantes.
+</p>
 
-<br>
-
-Flor delicada e perfumada que atrai abelhas e borboletas.
-
+<a href="calêndula.html">
+Conhecer Planta
 </a>
 
-<a href="fricoide-sortido.html">
-
-🌵 Fricoide Sortido
-
-<br>
-
-Planta ornamental suculenta com flores coloridas e adaptada a ambientes ensolarados.
-
-</a>
-
-<a href="centaura-sortida.html">
-
-🌸 Centaura Sortida
-
-<br>
-
-Flor de cores variadas que representa a diversidade da natureza.
-
-</a>
+</div>
 
 
+<div class="card">
+
+<img src="crisantemo-dobrado.jpg"
+alt="Crisântemo Dobrado">
+
+<h2>🌸 Crisântemo Dobrado</h2>
+
+<p>
+Flor ornamental que apresenta pétalas numerosas e beleza especial.
+</p>
 
 <a href="crisantemo-dobrado.html">
-
-🟣 Crisântemo Dobrado
-
-<br>
-
-Flor ornamental com muitas pétalas e diferentes cores.
-
+Conhecer Planta
 </a>
 
+</div>
 
+
+<div class="card">
+
+<img src="balsamica-dobrada.jpg"
+alt="Balsâmica Dobrada">
+
+<h2>🌺 Balsâmica Dobrada</h2>
+
+<p>
+Planta de flores delicadas muito utilizada em jardins.
+</p>
 
 <a href="balsamica-dobrada.html">
-
-🔵 Balsâmica Dobrada
-
-<br>
-
-Flor cheia de pétalas, colorida e muito apreciada em jardins.
-
+Conhecer Planta
 </a>
 
+</div>
 
 
-<a href="salvia-farinhenta.html">
+<div class="card">
 
-🟢 Sálvia Farinhenta
+<img src="flor-de-mel.jpg"
+alt="Flor de Mel">
 
-<br>
+<h2>🌿 Flor de Mel</h2>
 
-Flor ornamental que atrai polinizadores e valoriza o jardim sustentável.
+<p>
+Pequenas flores perfumadas que atraem insetos polinizadores.
+</p>
 
+<a href="flor-de-mel.html">
+Conhecer Planta
 </a>
 
+</div>
+
+
+<div class="card">
+
+<img src="centaura-sortida.jpg"
+alt="Centaura Sortida">
+
+<h2>🌸 Centaura Sortida</h2>
+
+<p>
+Flores coloridas importantes para a diversidade do jardim.
+</p>
+
+<a href="centaura-sortida.html">
+Conhecer Planta
+</a>
+
+</div>
+
+
+<div class="card">
+
+<img src="onze-horas.jpg"
+alt="Onze Horas">
+
+<h2>🌺 Onze Horas</h2>
+
+<p>
+Flor resistente que abre suas pétalas durante os períodos ensolarados.
+</p>
+
+<a href="onze-horas.html">
+Conhecer Planta
+</a>
+
+</div>
 
 
 </div>
+
+
+<div class="voltar">
+
+<a href="../index.html">
+🏡 Voltar para Página Inicial
+</a>
+
+</div>
+
+
+</section>
+
+
+<footer>
+
+<p>
+🌱 Horta Escolar Viva<br>
+Jardim da Biodiversidade<br>
+Projeto desenvolvido pela Dr.ª Márcia Maria Bezerra Guimarães<br>
+ECI Major Veneziano Vital do Rêgo – Campina Grande/PB<br>
+Educação Ambiental • Inclusão • Sustentabilidade © 2026
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
+
