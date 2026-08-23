@@ -366,36 +366,40 @@ footer {
   display: flex !important;
   flex-direction: column !important;
   flex-wrap: nowrap !important;
+  gap: 15px !important;
+
   width: 100% !important;
   max-width: 800px !important;
-  margin: 25px auto !important;
-  gap: 12px !important;
+
+  margin: 30px auto !important;
 }
 
 #plantas .lista-plantas a {
   display: block !important;
   width: 100% !important;
-  flex: none !important;
+  min-width: 100% !important;
+
+  padding: 18px 22px !important;
   margin: 0 !important;
-  padding: 16px 20px;
 
-  background: #f1f8e9;
-  border-left: 7px solid #4caf50;
-  border-radius: 10px;
+  background: #f1f8e9 !important;
 
-  color: #2e7d32;
-  text-decoration: none;
+  border-left: 8px solid #4caf50 !important;
+  border-radius: 12px !important;
 
-  font-size: 20px;
-  font-weight: bold;
+  color: #2e7d32 !important;
+  text-decoration: none !important;
 
-  box-shadow: 0 3px 8px rgba(0,0,0,0.10);
+  font-size: 21px !important;
+  font-weight: 800 !important;
 
-  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12) !important;
+
+  transition: all 0.3s ease;
 }
 
 #plantas .lista-plantas a:hover {
-  background: #c8e6c9;
-  color: #1b5e20;
-  transform: translateX(5px);
+  background: #c8e6c9 !important;
+  color: #1b5e20 !important;
+  transform: translateX(6px);
 }
