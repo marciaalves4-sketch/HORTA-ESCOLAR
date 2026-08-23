@@ -176,3 +176,21 @@ footer {
   color: #1b5e20;
   transform: translateX(5px);
 }
+/* FORÇAR LISTA VERTICAL DAS PLANTAS */
+
+section#plantas .cards {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    gap: 12px !important;
+    width: 100% !important;
+    max-width: 800px !important;
+    margin: 25px auto !important;
+}
+
+section#plantas .cards a {
+    display: block !important;
+    width: 100% !important;
+    flex: none !important;
+    box-sizing: border-box !important;
+}
