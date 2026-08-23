@@ -363,24 +363,19 @@ footer {
    ========================================= */
 
 #plantas .lista-plantas {
-  display: flex !important;
-  flex-direction: column !important;
-  flex-wrap: nowrap !important;
-  gap: 15px !important;
-
+  display: block !important;
   width: 100% !important;
   max-width: 800px !important;
-
   margin: 30px auto !important;
 }
 
 #plantas .lista-plantas a {
   display: block !important;
   width: 100% !important;
-  min-width: 100% !important;
+  box-sizing: border-box !important;
 
+  margin: 0 0 15px 0 !important;
   padding: 18px 22px !important;
-  margin: 0 !important;
 
   background: #f1f8e9 !important;
 
@@ -388,6 +383,7 @@ footer {
   border-radius: 12px !important;
 
   color: #2e7d32 !important;
+
   text-decoration: none !important;
 
   font-size: 21px !important;
