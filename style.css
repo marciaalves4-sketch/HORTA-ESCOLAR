@@ -461,3 +461,71 @@ footer {
         font-size: 17px;
     }
 }
+/* ===== NOVO VISUAL DOS BLOCOS DO SITE ===== */
+
+/* Fundo geral da página */
+body {
+    background-color: #eef5e9;
+    color: #263238;
+}
+
+/* Blocos principais */
+section {
+    background-color: #f8fbf5;
+    border: 1px solid #d5e5ce;
+    border-radius: 18px;
+    padding: 32px;
+    margin: 35px auto;
+    box-shadow: 0 5px 15px rgba(46, 125, 50, 0.10);
+}
+
+/* Títulos das seções */
+section h2 {
+    color: #1b5e20;
+}
+
+/* Textos */
+section p {
+    color: #37474f;
+    line-height: 1.7;
+}
+
+/* Cartões internos */
+.card,
+.cards,
+.parceria {
+    background-color: #edf7e8;
+    border-radius: 14px;
+    padding: 25px;
+    border-left: 6px solid #66a85c;
+}
+
+/* Galeria com fundo levemente diferente */
+#galeria {
+    background-color: #f4faef;
+}
+
+/* Cada título das etapas */
+#galeria h3 {
+    background-color: #dfeeda;
+    color: #245c2a;
+    border-left: 8px solid #5b9b50;
+}
+
+/* Destaque quando passar o mouse nos blocos */
+section {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 8px 22px rgba(46, 125, 50, 0.16);
+}
+
+/* Ajuste para celular */
+@media (max-width: 600px) {
+    section {
+        padding: 20px;
+        margin: 22px 10px;
+        border-radius: 14px;
+    }
+}
