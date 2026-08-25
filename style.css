@@ -529,3 +529,46 @@ section:hover {
         border-radius: 14px;
     }
 }
+/* ===== CORES MAIS VISÍVEIS NOS BLOCOS ===== */
+
+body {
+    background: #dfead7 !important;
+}
+
+/* blocos principais */
+section {
+    background: #fffdf5 !important;
+    border: 2px solid #b7d7a8 !important;
+    box-shadow: 0 8px 20px rgba(46,125,50,0.15) !important;
+}
+
+/* alternância suave de cores */
+section:nth-of-type(even) {
+    background: #edf7e8 !important;
+}
+
+section:nth-of-type(odd) {
+    background: #fff8dc !important;
+}
+
+/* títulos dos blocos */
+section h2 {
+    background: #cfe8c7;
+    color: #1b5e20 !important;
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* galeria */
+#galeria {
+    background: #e8f3df !important;
+}
+
+/* títulos das etapas */
+#galeria h3 {
+    background: #b9d7ad !important;
+    color: #174d1d !important;
+    border-left: 9px solid #2e7d32 !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
