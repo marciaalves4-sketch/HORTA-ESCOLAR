@@ -572,3 +572,126 @@ section h2 {
     border-left: 9px solid #2e7d32 !important;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
+/* ===== PALETA HORTA ESCOLAR - BLOCOS ALTERNADOS ===== */
+
+/* Fundo geral */
+body {
+    background: #dfead7 !important;
+}
+
+/* Todos os blocos */
+section {
+    border: 2px solid #b7cfa9 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 7px 18px rgba(46, 90, 45, 0.13) !important;
+}
+
+/* 1º bloco - verde suave */
+section:nth-of-type(4n+1) {
+    background: #e8f3df !important;
+}
+
+/* 2º bloco - creme */
+section:nth-of-type(4n+2) {
+    background: #fff7dc !important;
+}
+
+/* 3º bloco - verde sálvia bem claro */
+section:nth-of-type(4n+3) {
+    background: #edf4e8 !important;
+}
+
+/* 4º bloco - palha / terra muito suave */
+section:nth-of-type(4n+4) {
+    background: #f5ead8 !important;
+}
+
+/* ===== TÍTULOS DOS BLOCOS ===== */
+
+section h2 {
+    background: #c9dfbd !important;
+    color: #1d5726 !important;
+    padding: 16px 20px !important;
+    border-radius: 12px !important;
+    border-left: 7px solid #4f8a45 !important;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+}
+
+/* ===== GALERIA ===== */
+
+#galeria {
+    background: #f1f7eb !important;
+}
+
+/* Título principal da galeria */
+#galeria .titulo-galeria {
+    background: #bcd8ae !important;
+    color: #174d20 !important;
+    padding: 20px !important;
+    border-radius: 14px !important;
+}
+
+/* ===== ETAPAS DAS FOTOS ===== */
+
+#galeria h3 {
+    font-size: 29px !important;
+    background: #d8e9cf !important;
+    color: #1b5425 !important;
+
+    border-left: 9px solid #4d8b45 !important;
+
+    padding: 20px 24px !important;
+
+    margin-top: 100px !important;
+    margin-bottom: 35px !important;
+
+    border-radius: 12px !important;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Separação entre os conjuntos de fotos */
+#galeria .galeria {
+    margin-bottom: 105px !important;
+    padding-bottom: 50px !important;
+    border-bottom: 3px solid #c6d9bd !important;
+}
+
+/* ===== FOTOS ===== */
+
+#galeria .galeria img {
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Efeito suave ao passar o mouse */
+#galeria .galeria img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 9px 18px rgba(0,0,0,0.20);
+}
+
+/* ===== CELULAR ===== */
+
+@media (max-width: 600px) {
+
+    section {
+        border-radius: 14px !important;
+    }
+
+    section h2 {
+        font-size: 23px !important;
+        padding: 14px !important;
+    }
+
+    #galeria h3 {
+        font-size: 21px !important;
+        margin-top: 70px !important;
+        padding: 16px !important;
+    }
+
+    #galeria .galeria {
+        margin-bottom: 70px !important;
+        padding-bottom: 35px !important;
+    }
+}
