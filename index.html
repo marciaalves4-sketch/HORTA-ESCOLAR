@@ -566,3 +566,25 @@
         font-size: 17px;
     }
 }
+/* ===== MAIS ESPAÇO ENTRE AS ETAPAS DA GALERIA ===== */
+
+#galeria .galeria {
+    margin-bottom: 90px;
+}
+
+/* Linha suave para separar visualmente cada etapa */
+#galeria .galeria:not(:last-of-type) {
+    padding-bottom: 45px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Mais espaço antes do título da próxima etapa */
+#galeria h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+/* A primeira etapa não precisa de tanto espaço acima */
+#galeria h3:first-of-type {
+    margin-top: 45px;
+}
