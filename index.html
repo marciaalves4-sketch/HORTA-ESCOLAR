@@ -400,6 +400,105 @@
         a horta e o jardim sustentável.
     </p>
 
+<!-- BANNER-RESUMO DA TRAJETÓRIA DO PROJETO -->
+<div class="banner-trajetoria-horta">
+
+    <h3>🌱 Horta Escolar Viva — Do Plantio à Culminância</h3>
+    <p>Uma trajetória de ciência, sustentabilidade e inclusão.</p>
+
+    <div class="etapas-banner">
+
+        <div class="item-banner">
+            <img src="foto1.jpg" alt="Preparação dos pneus">
+            <span>1. Preparação</span>
+        </div>
+
+        <div class="item-banner">
+            <img src="foto6.jpg" alt="Plantio das sementes">
+            <span>2. Plantio</span>
+        </div>
+
+        <div class="item-banner">
+            <img src="foto12.jpg" alt="Transplante das mudas">
+            <span>3. Transplante</span>
+        </div>
+
+        <div class="item-banner">
+            <img src="foto26.jpg" alt="Cuidados com as plantas">
+            <span>4. Manejo</span>
+        </div>
+
+        <div class="item-banner">
+            <img src="foto45.jpg" alt="Apresentação à comunidade escolar">
+            <span>5. Apresentação</span>
+        </div>
+
+        <div class="item-banner">
+            <img src="culminancia-01.jpg" alt="Culminância do projeto">
+            <span>6. Culminância</span>
+        </div>
+
+    </div>
+</div>
+
+<style>
+.banner-trajetoria-horta {
+    background: #f1f8e9;
+    border-left: 5px solid #4caf50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.banner-trajetoria-horta h3 {
+    color: #2e7d32;
+    margin: 0 0 8px;
+}
+
+.banner-trajetoria-horta > p {
+    margin: 0 0 18px;
+}
+
+.etapas-banner {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.item-banner {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px #00000018;
+}
+
+.item-banner img {
+    display: block;
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+}
+
+.item-banner span {
+    display: block;
+    padding: 9px 4px;
+    color: #2e5d32;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .etapas-banner {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .item-banner img {
+        height: 135px;
+    }
+}
+</style>
+
     <div class="galeria">
 
         <img src="culminancia-01.jpg" alt="Culminância do Projeto Horta Escolar Viva — registro 1">
